@@ -18,8 +18,8 @@ A reference implementation of GraphQL API in .NET Core
   - Has GraphQL Schema definition, GraphQL types and Resolvers to fetch Card, Customer & Account info.
   - Has implementation for a GraphQL Query and a GraphQL Mutation
   - Processes GraphQL Queries using 2 endpoints:
-    - localhost:7000/graphql - Queries processed by GraphQL middleware
-    - localhost:7000/api/dashboard/graphql - Queries processed by customer implementation, as a controller method/endpoint, in DashboardController
+    - http://localhost:7000/graphql - Queries processed by GraphQL middleware
+    - http://localhost:7000/api/dashboard/graphql - Queries processed by custom implementation, as a controller method/endpoint, in DashboardController
 
 ## Execution instructions
 - Clone the repository
