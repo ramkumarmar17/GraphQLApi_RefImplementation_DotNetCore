@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:50731",
+      "sslPort": 44376
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/customers",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "CustomerApi": {
+      "commandName": "Executable",
+      "executablePath": "..\\output\\netcoreapp3.1\\Customer.Api.exe",
+      "commandLineArgs": "--urls http://localhost:6000",
+      "launchBrowser": true,
+      "launchUrl": "api/customers",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:6001;http://localhost:6000"
+    }
+  }
+}

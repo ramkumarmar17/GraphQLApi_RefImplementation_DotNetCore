@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:57684",
+      "sslPort": 44386
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "dashboard",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Dashboard": {
+      "commandName": "Executable",
+      "executablePath": "..\\netcoreapp3.1\\Dashboard.exe",
+      "commandLineArgs": "--urls http://localhost:7000",
+      "launchBrowser": true,
+      "launchUrl": "dashboard",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7001;http://localhost:7000"
+    }
+  }
+}
