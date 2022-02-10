@@ -4,6 +4,9 @@ A reference implementation of GraphQL API in .NET Core
 ## High-level view 
 ![GraphQLApi_ReferenceImplementation_DotNetCore](https://user-images.githubusercontent.com/46394226/153345744-f1840c7f-3dfa-457b-89e3-fa7586688cf6.PNG)
 
+## Prerequisites
+- .NET Core 3.1 Runtime & SDK
+
 ## Solution contents
 - Card.Api
   - A sample REST API for Cards
