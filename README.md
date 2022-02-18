@@ -16,9 +16,9 @@ GraphQL APIs can be used to perform the following operations:
 -	Allows frontend and backend teams to work independently, using the schema definition
 
 ### Resolver Functions
-Responsible for fetching data for each object (model) and attribute (field) in the GraphQL query
-Each Type/model can map to exactly one resolver function
-Resolver functions are executed in parallel
+-	Responsible for fetching data for each object (model) and attribute (field) in the GraphQL query
+-	Each Type/model can map to exactly one resolver function
+-	Resolver functions are executed in parallel
 
 ### Query
 Used to request specific objects (models), and specific attributes (fields) under each object.
